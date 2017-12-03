@@ -17,7 +17,7 @@ Out[2]: 'Goal!!'
 ```
 In [1]: from dicdig import dicdig
 
-In [2]:     d = {"a": 1, "b": [{"c": 3}, {"d": [{"e": "Goal!!", "f": 4}]}]}
+In [2]: d = {"a": 1, "b": [{"c": 3}, {"d": [{"e": "Goal!!", "f": 4}]}]}
 
 In [3]: dicdig(d,"e")
 Out[3]: 'Goal!!'
