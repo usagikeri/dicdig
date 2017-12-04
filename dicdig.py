@@ -37,3 +37,12 @@ if __name__ == "__main__":
           {"e": "Goal!!", "f": 4}]]}]}
     x = dicdig(d, "e")
     print(x)
+
+"""
+このコードは5行で実現できる．
+import re
+def dicdig(dic, word):
+    x = re.search(".*(\"|\'){}(\"|\'):\s(\"|\')(.*)(\"|\'),".format(word),
+                  str(dic))
+    if x in not None: return x.group(4)
+"""
